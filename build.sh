@@ -37,7 +37,7 @@ function sync_images_with_arch ()
 }
 
 
-IMAGES2="kube-cross echoserver heapster heapster_influxdb heapster_grafana defaultbackend nginx-ingress-controller addon-resizer etcd-amd64 cluster-autoscaler kube-state-metrics kube-registry-proxy mongodb-install spark zeppelin spartakus-amd64"
+IMAGES2="kube-cross echoserver heapster heapster_influxdb heapster_grafana defaultbackend nginx-ingress-controller addon-resizer etcd-amd64 cluster-autoscaler kube-state-metrics kube-registry-proxy mongodb-install spark zeppelin spartakus-amd64 busybox"
 
 function sync_images ()
 {
