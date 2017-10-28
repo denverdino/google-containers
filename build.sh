@@ -4,7 +4,7 @@ set -e
 # automated generate kubernetes images from gcr.io to registry.cn-hangzhou.cn/google-containers
 
 
-IMAGES="flannel etcd k8s-dns-kube-dns k8s-dns-dnsmasq-nanny k8s-dns-sidecar kubedns exechealthz kubernetes-dashboard pause kube-addon-manager kube-dnsmasq heapster-influxdb"
+IMAGES="flannel etcd k8s-dns-kube-dns k8s-dns-dnsmasq-nanny k8s-dns-sidecar kubedns exechealthz kubernetes-dashboard pause kube-addon-manager kube-dnsmasq heapster-influxdb heapster-grafana"
 arch=amd64
 
 function sync_images_with_arch ()
